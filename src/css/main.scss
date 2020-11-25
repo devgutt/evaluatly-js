@@ -392,6 +392,7 @@ $marginContent: 24px;
             .options {
                 display: flex;
                 flex-wrap: wrap;
+                height: fit-content;
             }
             .option_container {
                 flex: 1 1 auto;
