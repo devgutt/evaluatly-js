@@ -6,7 +6,7 @@ wdrLoader(data=> {
 
 function render(data) {
     document.title = 'WDR example';
-    loadScript("/dist/evaluatly.js", () => Evaluatly.loadVar(template(data)));
+    loadScript("/dist/evaluatly-master.js", () => Evaluatly.loadVar(template(data)));
 }
 
 function template(data) {
