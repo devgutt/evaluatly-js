@@ -27,6 +27,8 @@ export default function Load(root, hash, story, theme, initialData, restart, fet
         let initialState = null;
         if (data.start(hash, initialData)) {
             initialState = retrieveProgram();
+        } else {
+            removeProgram()
         }
 
         return initialState;
