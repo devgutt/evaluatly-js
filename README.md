@@ -24,7 +24,7 @@ Read the [docs](https://evaluatly.com/docs/) and [Getting Started](https://evalu
 
 Report an [issue or bug](https://github.com/evaluatly/evaluatly-js/issues).
 
-For support or general inquires, send an email to [support@evaluatly.com](mailto:support@evaluatly.com). 
+For support or general inquires, send an [email](mailto:gustavo.evaluatly@gmail.com). 
 
 
 ## License
