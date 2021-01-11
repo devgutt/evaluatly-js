@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://evaluatly.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn.evaluatly.com/img/evaluatly-logo-206x77.png" alt="evaluatly">
+    <img src="https://evaluatly.com/static/img/evaluatly-logo-206x77.png" alt="evaluatly">
   </a>
 </p>
 
