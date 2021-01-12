@@ -1,12 +1,13 @@
 const wdrLoader = require("wdr-loader");
+const Evaluatly = require("evaluatly");
 
 wdrLoader(data=> {
     render(data);
 })
 
 function render(data) {
-    document.title = 'WDR example';
-    loadScript("/dist/evaluatly-master.js", () => Evaluatly.loadVar(template(data)));
+    document.title = 'WDR example (NPM)';
+    Evaluatly.loadVar(template(data));
 }
 
 function template(data) {
@@ -86,11 +87,3 @@ function template(data) {
 
 }
 
-function loadScript(url, onload) {
-    const script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.async = true;
-    document.head.appendChild(script);
-    script.onload = onload;
-    script.src = url;
-}

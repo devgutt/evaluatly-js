@@ -3,19 +3,15 @@ const webpack = require('webpack');
 
 const mode = process.env.NODE_ENV;
 
-let version = 'master';
-if (mode == 'production') {
-  version = require('./package.json').version;
-}
-console.log('version:', version);
-
 module.exports = {
   mode: mode,
   devtool: mode == 'development' ? 'cheap-module-eval-source-map' : false,
   entry: './entry.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: `evaluatly-${version}.js`
+    path: path.resolve(__dirname, mode == 'development' ? 'dist' : '../dist'),
+    filename: `evaluatly.js`,
+    library: 'Evaluatly',
+    libraryTarget: 'umd'
   },
   resolve: {
     extensions: [".js", ".scss"],
