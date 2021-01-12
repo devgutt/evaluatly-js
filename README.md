@@ -20,6 +20,10 @@ Edit a live example with the [online editor](https://evaluatly.com/try.html?d=/d
 
 Read the [docs](https://evaluatly.com/docs/) and [Getting Started](https://evaluatly.com/docs/) guide for information on how to use evaluatly.
 
+## Install
+
+> $ npm install evaluatly
+
 ## Support
 
 Report an [issue or bug](https://github.com/evaluatly/evaluatly-js/issues).
